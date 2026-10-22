@@ -15,7 +15,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/** Datos de ejemplo para poder probar la API nada más arrancar. */
 @Component
 @RequiredArgsConstructor
 public class DataSeed {
