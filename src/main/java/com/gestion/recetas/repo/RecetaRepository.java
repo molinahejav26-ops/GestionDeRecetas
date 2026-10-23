@@ -10,6 +10,8 @@ import java.util.List;
 @Repository
 public interface RecetaRepository extends JpaRepository<Receta, Long> {
 
+    boolean existsByNombre(String nombre);
+
     List<Receta> findByCategoriaId(Long categoriaId);
 
     List<Receta> findByDificultad(Dificultad dificultad);
